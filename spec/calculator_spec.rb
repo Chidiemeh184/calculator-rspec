@@ -47,7 +47,7 @@ describe Calculator do
 		
 		it 'should accept more than 2 numbers at a time'do
 			calc = Calculator.new
-			answer = calc.subtract(1, 2) + calc.subtract(4, 2)
+			answer = calc.subtract(4, 2, 1)
 			expect(answer).to eq 1
 		end
 	end
